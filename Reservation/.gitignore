@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log*
+# Never bake secrets into the image.
+.env
+.env.*
+!.env.example
+.DS_Store
+Dockerfile
+.dockerignore
